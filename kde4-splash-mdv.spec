@@ -1,4 +1,4 @@
-Name: splash-mdv
+Name: kde4-splash-mdv
 Summary: KDE Splash supporting SVG files
 Version: 2009.0
 Release: %mkrel 1
@@ -17,7 +17,7 @@ Requires: kde4-config-file
 Splash Screen Engine for KDE4 supporting SVG files on the theme
 
 %prep 
-%setup -q -n splash-mdv
+%setup -q -n kde4-splash-mdv
 
 %build 
 %cmake_kde4 
@@ -34,4 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%attr(755,root,root) %{_bindir}/splash-mdv
+%attr(755,root,root) %{_bindir}/kde4-splash-mdv
