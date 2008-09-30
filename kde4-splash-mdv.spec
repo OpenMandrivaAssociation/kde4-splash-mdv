@@ -1,7 +1,7 @@
 Name: kde4-splash-mdv
 Summary: KDE Splash supporting SVG files
 Version: 2009.0
-Release: %mkrel 4
+Release: %mkrel 5
 License: GPL
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/splash-mdv
 Group: Graphical desktop/KDE
@@ -44,3 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/ksplash
 %{_datadir}/kde4/servicetypes/ksplashplugin.desktop
 %{_datadir}/kde4/services/kde4-splash-mdv.desktop
+%{_datadir}/locale/*/LC_MESSAGES/kde4-splash-mdv.mo
