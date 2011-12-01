@@ -23,7 +23,7 @@ Splash Screen Engine for KDE4 supporting SVG files on the theme
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 pushd build
 %makeinstall_std
 popd
@@ -39,7 +39,7 @@ pushd build
 popd
 
 %clean 
-rm -rf $RPM_BUILD_ROOT 
+rm -rf %{buildroot} 
 
 %files -f build/%{name}.lang
 %defattr(-,root,root)
