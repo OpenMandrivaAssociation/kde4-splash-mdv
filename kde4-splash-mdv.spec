@@ -7,6 +7,7 @@ URL: https://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/splash-mdv
 Group: Graphical desktop/KDE
 Source: %{name}-%{version}.tar.xz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: qt4-devel
 BuildRequires: kde4-macros
 BuildRequires: kdelibs4-devel
